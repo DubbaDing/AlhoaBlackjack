@@ -1,0 +1,139 @@
+/************************************************/
+/****************** GENERAL *********************/
+/************************************************/
+
+/* set the background */
+body{
+    background: url('img/sand.png');
+    background-size: cover;
+} 
+
+/* all text is white and centered */
+p, .score, .finalText{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* added this to make the buttons a little bigger */
+p.btn{
+    margin: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+/************************************************/
+/*****************  SCORES **********************/
+/************************************************/
+
+/* if the player busted, make the score red */
+.bustScore{
+    color: red;
+}
+#totalScore h4{
+    color: white;
+    padding: 10px;
+}
+/* make things centered and pretty */
+#computerScore, #playerScore{
+    margin-right: auto;
+    margin-left: auto;
+}
+.scoreArea{
+    text-align: center;
+}
+.buttonArea{
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.finalText{
+    padding-top: 60px;
+}
+
+
+/*********************  CARD AREAS ******************/
+#computersHand, #playersHand{
+    margin: 10px 40% 5px;
+    width: 900px;
+}
+#computerArea, #playerArea, #logo{
+    margin: 20px;
+    height: 200px;
+}
+#playArea{
+    text-align: center;
+    height: 220px;
+}
+/* made the final results pretty */
+#finalDiv{
+    background-color: #cedfee99;
+    padding-bottom: 40px;
+}
+
+
+/*********************  CARDS ******************/
+/* set the height of the cards */
+.card{
+    height: 150px;
+}
+
+/* This makes the cards overlap a bit. each card needs to move over more than the last */
+.card:nth-child(2){
+    -webkit-transform: translate(-60px,0);
+    -moz-transform: translate(-60px,0);
+    -o-transform: translate(-60px,0);
+    -ms-transform: translate(-60px,0);
+    transform: translate(-60px,0);
+}
+.card:nth-child(3){
+    -webkit-transform: translate(-120px,0);
+    -moz-transform: translate(-120px,0);
+    -o-transform: translate(-120px,0);
+    -ms-transform: translate(-120px,0);
+    transform: translate(-120px,0);
+}
+.card:nth-child(4){
+    -webkit-transform: translate(-180px,0);
+    -moz-transform: translate(-180px,0);
+    -o-transform: translate(-180px,0);
+    -ms-transform: translate(-180px,0);
+    transform: translate(-180px,0);
+}
+.card:nth-child(5){
+    -webkit-transform: translate(-240px,0);
+    -moz-transform: translate(-240px,0);
+    -o-transform: translate(-240px,0);
+    -ms-transform: translate(-240px,0);
+    transform: translate(-240px,0);
+}
+.card:nth-child(6){
+    -webkit-transform: translate(-300px,0);
+    -moz-transform: translate(-300px,0);
+    -o-transform: translate(-300px,0);
+    -ms-transform: translate(-300px,0);
+    transform: translate(-300px,0);
+}
+.card:nth-child(7){
+    -webkit-transform: translate(-360px,0);
+    -moz-transform: translate(-360px,0);
+    -o-transform: translate(-360px,0);
+    -ms-transform: translate(-360px,0);
+    transform: translate(-360px,0);
+}
+.card:nth-child(8){
+    -webkit-transform: translate(-420px,0);
+    -moz-transform: translate(-420px,0);
+    -o-transform: translate(-420px,0);
+    -ms-transform: translate(-420px,0);
+    transform: translate(-420px,0);
+}
+.card:nth-child(9){
+    -webkit-transform: translate(-480px,0);
+    -moz-transform: translate(-480px,0);
+    -o-transform: translate(-480px,0);
+    -ms-transform: translate(-480px,0);
+    transform: translate(-480px,0);
+}

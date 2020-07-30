@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>~ALOHA~ BlackJack</title>
+
+    <!-- Link css, including bootstrap -->
+    <link rel="stylesheet" href="pretty.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <!-- Main Container -->
+    <div id="playAreaContainer">
+        <div>
+            <div id="totalScore"><h4>Player: 0  -  Computer: 0</h4></div>
+        </div>
+        <!-- Computer Area -->
+        <div id="computerArea">
+            <div id="computerScore" class="scoreArea"></div>
+            <p id="computerInstructions"></p>
+            <div id="computersHand"></div>
+        </div>
+
+        <!-- Play Area (Logo) -->
+        <div id="playArea">
+            <img id="logo" src="img/logo.png" />
+        </div>
+
+        <!-- Player Area -->
+        <div id="playerArea">
+            <div id="playerScore" class="scoreArea"></div>
+            <div class="buttonArea">
+                <p id="hit" class="btn btn-danger btn-lg">HIT!!</p>
+                <p id="stand" class="btn btn-info btn-lg">STAND</p>
+            </div>
+            <div id="playersHand">
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Link JS, including bootstrap -->
+    <script src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
